@@ -18,9 +18,8 @@ We are going to perform this using pre-knowledge like: y = mx+b, and gradient de
    1. Pandas: https://pandas.pydata.org/pandas-docs/stable/getting_started/install.html
    2. matplotlib: https://matplotlib.org/stable/install/index.html
    3. numpy: https://numpy.org/install/
-
-# Coding
-1. In order to access those libraries earlier in the python script, you will need to import those in your scrip (look at main.py)
-2. After importing all the libraries and modules, now you have to give python script access to your data_set.csv (look at main.py)
-3. 
-
+  
+# Mathematics
+1. The first thing you need to do is to draw a random function. Now imagine, you have a graph with a bunch of red plots illustrate your data set. Your goal now is to draw a random function, takes the y-value (dependent value) of the function and compared it with the actual y-value (the red plot) with corresponding x-value (independent value), therefore you get the differences between your prediction and the actual value. To do this, you need the function formula: y = mx + b, initialize m and b with any value you want, then write the code to perform the equation, the y value for this equation is your predicted value. In the data set that I give you, we have 100 points in there, and that means you have to do this step 100 times, calculating the differences between the predicted value and the actual value for each point. Finally after calculating the error for each point, make sure you create the list and store those value inside the list (basic python review). This is the mathematics, if you want to know specifically how to code, read the file "main.py".
+2. When calculated the error for each point, you have to square that error, store it in a list, and at the end, takes all of the error value, add it up together and divdided by 100 (the amounts of points you have). By doing this, you now have the thing that we called "mean squared error".
+3. Next step is to calculate the gradient: 
